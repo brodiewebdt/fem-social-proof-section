@@ -1,0 +1,41 @@
+# ==========================
+# System files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Node (for React, backend, fullstack projects)
+node_modules/
+
+# Build output folders (React, Next.js, builds, Netlify, Vercel, etc.)
+dist/
+build/
+out/
+.netlify/
+.vercel/
+.next/
+
+# Cache folders (for some tools & bundlers)
+.cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Testing coverage reports
+coverage/
+
+# Deployment artifacts (if locally generated)
+public/
+
+/meta/
