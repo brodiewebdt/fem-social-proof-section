@@ -193,7 +193,7 @@ ul {
   background-color: var(--color-800);
   border-radius: 8px;
   color: var(--color-100);
-  font-size: --fs-18;
+  font-size: var(--fs-18);
   padding: 2.25rem 2rem;
   text-align: left;
 }
