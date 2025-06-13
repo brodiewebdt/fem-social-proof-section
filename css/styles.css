@@ -124,14 +124,14 @@ body {
   font-family: var(--ff-base);
   font-size: var(--fs-18);
   line-height: 1.5;
-  padding-block: 5rem 6.25rem;
+
   text-align: center;
 }
 
 .wrapper {
   width: min(var(--max-width), 90%);
   margin-inline: auto;
-  padding: 1rem 0;
+  padding-block: 5rem 6.25rem;
 }
 
 /***** Typography ******/
@@ -233,13 +233,13 @@ ul {
 
 @media (min-width: 56.25rem) {
   body {
-    padding-block: 7.5rem;
     text-align: left;
   }
 
   .wrapper {
     width: 90%;
     max-width: var(--max-width);
+    padding-block: 7.5rem;
   }
 
   .social__proof {
