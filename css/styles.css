@@ -122,6 +122,97 @@ body {
   background-color: var(--color-100);
   color: var(--color-neutral-dark);
   font-family: var(--ff-base);
-  font-size: var(--fs-20);
+  font-size: var(--fs-18);
   line-height: 1.5;
+  padding-block: 5rem 6.25rem;
+  text-align: center;
+}
+
+.wrapper {
+  width: min(var(--max-width), 90%);
+  margin-inline: auto;
+  padding: 1rem 0;
+}
+
+/***** Typography ******/
+h1 {
+  color: var(--color-800);
+  font-size: clamp(2.5rem, 2.095rem + 2.025vi, 3.5rem);
+  font-weight: var(--fw-700);
+  line-height: 0.9;
+  margin-block-end: 1rem;
+}
+
+p.social__proof-subtitle {
+  color: var(--color-400);
+  font-weight: var(--fw-500);
+  margin-block-end: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/***** Utils ******/
+.social__proof-ratings__list > * + *,
+.social__proof-reviews__list > * + * {
+  margin-block-start: 1rem;
+}
+
+/***** Social Proof Ratings ******/
+.social__proof {
+  margin-block-end: 3rem;
+}
+
+.ratings__list-item {
+  background-color: var(--color-200);
+  border-radius: 8px;
+  padding-block: 1rem;
+}
+
+.stars img {
+  display: inline;
+}
+
+.ratings__list-item span {
+  color: var(--color-800);
+  font-size: var(--fs-18);
+  font-weight: var(--fw-600);
+  margin-inline-start: 0.5rem;
+}
+
+/***** Social Proof Reviews ******/
+.reviews__list-item {
+  background-color: var(--color-800);
+  border-radius: 8px;
+  color: var(--color-100);
+  font-size: --fs-18;
+  padding: 2.25rem 2rem;
+  text-align: left;
+}
+
+.reviews__list-item img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  margin-inline-end: 1.5rem;
+}
+
+.reviews__list-item p {
+  font-weight: var(--fw-500);
+}
+
+.reviewer__meta {
+  display: flex;
+  align-items: center;
+  margin-block-end: 1.5rem;
+}
+
+.reviewer__meta h2 {
+  font-size: var(--fs-20);
+  font-weight: var(--fw-700);
+}
+
+.reviewer__meta span {
+  color: var(--color-600);
 }
